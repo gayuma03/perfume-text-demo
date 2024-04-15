@@ -1,0 +1,270 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.f{
+    background-color: #c98e3b;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: white;
+
+}
+.f1{
+    display: inline-block;
+    margin-left: 20px;
+}
+.index{
+    display: flex;
+}
+.icon{
+    position: absolute;
+    top: 145px;
+    left: 105px;
+    word-spacing: 20px;
+}
+.logo{
+margin-top: 10px;
+    margin-left: 540px;
+}
+nav{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+ul,li{
+    margin-top: 20px;
+    display: flex;
+    margin-left: 50px;
+    padding: 10px;
+
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+a:hover{
+    color: burlywood;
+}
+.newa{
+    background-color: #c98e3b;
+    padding: 20px;
+    color: white;
+    padding-left: 70px;
+}
+h1{
+    font-size: 35px;
+}
+.black{
+    color: white;
+}
+.animate{
+    width: 400%;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: 1390px 450px;
+    animation-name: ani;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+@keyframes ani{
+    0%{
+        background-image: url("ani\ 1.png");
+    }
+    50%{
+        background-image: url("ani\ 3.png");
+    }
+    100%{
+        background-image: url("ani\ 2.png");
+    }
+}
+.pic{
+    display: flex;
+    padding: 35px;
+    justify-content: space-between;
+}
+.pic:hover{
+    color: #c98e3b ;
+}
+.pp{
+    margin-left: 30px;
+    margin-top: 80%;
+    font-size: 20px;
+}
+.p1{
+    margin-left: 60px;
+    background-image: url("naw\ arrivals.png");
+    width: 507px;
+    height: 500px;
+}
+.p2{
+    margin-right: 60px;
+    background-image: url("best\ seller.png");
+    width: 507px;
+    height: 500px;
+}
+.par1,.par2,.par3,.par4,.par5{
+    display: flex;
+     justify-content: space-evenly;
+}
+.ppp{
+    text-transform:capitalize ;
+}
+.ppp:hover{
+    color: #c98e3b;
+}
+.exclusive{
+    margin-bottom: 30px;
+}
+.child{
+    text-align: center;
+     /* border: 1px solid black;  */
+    width: 220px;
+    height: 310px;
+    margin-top: 20px;
+    padding: 40px;
+    justify-content: space-evenly;
+}
+.deo{
+    text-align: center;
+    font-weight: lighter;
+}
+
+.ex{
+    text-align: center;
+}
+.af{
+    text-align: center;
+    font-weight: lighter;
+}
+
+span{
+    color: #c98e3b;
+}
+.del{
+    word-spacing: 5px;
+}
+.btn{
+    border: none;
+    border-radius:50px ;
+    padding: 10px 25px;
+}
+.btn:hover{
+    border:none ;
+    background-color: #c98e3b;
+    padding: 10px 25px;
+    border-radius: 50px;
+    color: black;
+}
+.fff{
+    background-color: rgb(223, 219, 219);
+    padding: 30px;
+    font-weight: lighter;
+}
+.abb{
+    display: flex;
+}
+.mgm{
+    border-radius: 50px;
+    opacity: 0.5;
+    margin-right: 10px;
+}
+
+.cn,.hn,.fn{
+    padding-left: 20px;
+    margin-right: 15px;
+    padding-top: 25px;
+   
+}
+.spp{
+    word-spacing: 5px;
+}
+.rm{
+    color: black;
+    padding-top: 17px;
+    padding-right: 25px;
+    line-height: 27px;
+}
+.fr{
+    color: black;
+    padding-top: 17px;
+    padding-right: 25px;
+    line-height: 27px;
+}
+.ph{
+    color: black;
+    padding-top: 17px;
+    padding-right: 25px;
+    line-height: 27px;
+}
+.hh{
+    display: flex;
+    cursor: pointer;
+}
+.gg{
+    padding-top: 15px;
+    padding-right: 25px;
+    line-height: 27px;
+}
+.mm{
+    padding-top: 15px;
+    padding-right: 25px;
+     line-height: 27px;
+}
+.c:hover{
+    color: #c98e3b;
+}
+.t:hover{
+    color: #c98e3b;
+}
+.s:hover{
+    color: #c98e3b;
+}
+.p:hover{
+    color: #c98e3b;
+}
+.r:hover{
+    color: #c98e3b;
+}
+.o:hover{
+    color: #c98e3b;
+}
+#iii{
+    margin-left: 5px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 10px;
+}
+input{
+    padding: 2px;
+    border: none;
+    border-bottom: 1px solid black;
+    padding-right: 60px;
+    opacity: 0.9;
+    color: black;
+     background-color: rgb(235, 229, 229);
+}
+.iii{
+    justify-content: space-evenly;
+    color: black;
+     word-spacing: 3px;
+}
+.lluf{
+    display: flex;
+   
+}
+.faa{
+ position: absolute;
+ left: 60%;
+ font-size:50px ;
+ word-spacing: 30px;
+}
+.last{
+color: #966015;
+position: absolute;
+left: 30%;
+}
+
+  
+
+
